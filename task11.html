@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manohar's Task11</title>
+
+    <style>
+
+        .img{
+            display: flex;
+            justify-content: center;
+            width: 50px;
+            margin-left: 50%;
+            margin-top: 80px;
+        }
+
+        form{
+            width: 465px;
+            margin-left: 35%;
+            padding: 21px;
+        }
+        label{
+            font-size: large;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .inp{
+            width: 450px;
+            height: 30px;
+        }
+        .div1{
+            padding: 8px;
+        }
+        #but1{
+            background-color: rgb(69, 187, 69);
+            transition:0.5s;
+            width: 458px;
+            height: 34px;
+            text-align: center;
+            color: white;
+        }
+        #but1:hover{
+            background-color: rgb(0, 255, 0);
+            color: black;
+        }
+        .leftbutton button{
+            background-color: red;
+            color: white;
+            width: 68px;
+            border-radius: 5px;
+            height: 33px;
+            margin-top: 12px;
+            margin-left: 3px;
+            margin-bottom: 2px;
+        }
+        .leftbutton{
+            display: inline-block;
+        }
+        .rightbutton a{
+            color: black;
+            position: absolute;
+            margin-left: 271px;
+            margin-top: -15px;
+        }
+        .rightbutton {
+            display: inline-block;
+        }
+        .dif{
+            background-color: rgb(226, 223, 223);
+            border: 0;
+            padding: 0;
+            transition: 0.5s;
+        }
+        .leftbutton button:hover{
+            background-color: rgb(251, 0, 0);
+            color: black;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="img">
+        <img src="Profilepic.png" alt="The image is loading...">
+    </div>
+
+    <div class="container">
+        
+        <form action="#">
+            
+            
+            <div class="div1">
+            <label for="#">Username</label>
+            <br>
+            <input type="text" class="inp" placeholder="Enter Username">
+            </div>
+
+            <div class="div1">
+            <label for="#">Password</label>
+            <br>
+            <input type="password" class="inp" placeholder="Enter Password">
+            </div>
+
+            <div   class="div1">
+                <button  id="but1">Login</button>
+            </div>
+
+            <div class="div1">
+                <input id="check" type="checkbox" checked>Remember me
+            </div>
+
+            <div class="dif">
+                <div class="leftbutton">
+                    <button>Cancel</button>
+                </div>
+                <div class="rightbutton">
+                    <a href="#">Forget password?</a>
+                </div>
+            </div>
+
+
+        </form>
+    </div>
+</body>
+</html>
