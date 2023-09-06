@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manohar's Task9</title>
+
+    <style>
+
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            position: fixed;
+            z-index: 999;
+            top: 10%;
+            left: 0;
+            height: auto;
+            width: auto;
+        }
+        .home, .history, .bookmarks, .fav{
+            height: 60px;
+            width: 145px;
+            position: absolute;
+            left: -90px;
+            border-radius: 10px;
+            background-color: rgb(54, 237, 176);
+            top: 0%;
+            text-align: left;
+            transition: left 0.5s;
+            line-height: 50px;
+            padding: 3px;
+        }
+        .container>:hover{
+            left: 0px;
+        }
+        .history{
+            background-color: rgb(24, 158, 235);
+            top: 65px;
+        }
+        .bookmarks{
+            background-color: rgb(203, 72, 72);
+            top: 130px;
+        }
+        .fav{
+            background-color: rgb(48, 47, 47);
+            top: 195px;
+        }
+        a{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: medium;
+            text-decoration: none;
+            color: aliceblue;
+        }
+        a:hover{
+            color: rgb(153, 151, 151);
+        }
+        h1{
+            margin-top: 7%;
+            margin-left: 160px;
+        }
+        
+
+    </style>
+</head>
+<body>
+
+    <div class="head">
+        <h1>Hoverable Sidenav Buttons</h1>
+    </div>
+
+    <div class="container">
+        <div class="home">
+            <a href="#">Home</a>
+        </div>
+        <div class="history">
+            <a href="#">History</a>
+        </div>
+        <div class="bookmarks">
+            <a href="#">Bookmarks</a>
+        </div>
+        <div class="fav">
+            <a href="#">Favourites</a>
+        </div>
+    </div>
+</body>
+</html>
