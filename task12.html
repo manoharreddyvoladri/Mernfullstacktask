@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manohar's Task12</title>
+    <style>
+
+        body{
+            background-color: rgb(162, 43, 85);
+        }
+        .container1{
+            background-color: rgb(118, 32, 63);
+            width: 574px;
+            height: 447px;
+            margin-top: 150px;
+            margin-left: 36%;
+            padding-top: 20px;
+        }
+        .div{
+            padding: -20px;
+            color: rgb(220, 222, 222);
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 106px;
+            align-items: center;
+            justify-content: center;
+        }
+        label{
+            width: 181px;
+            display: inline-block;
+        }
+        .inp{
+            height: 25px;
+            width: 205px;
+        }
+        button{
+            background-color: white;
+            font-weight: bolder;
+            font-size: large;
+            text-align: center;
+            width: 408px;
+            height: 43px;
+            border-radius: 6px;
+        }
+        #sel{
+            width: 181px;
+            display: inline-block;
+        }
+        textarea{
+            height: 42px;
+            width: 205px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+
+        <form action="#" class="container1">
+
+            <div class="div">
+                <label for="#">Name:</label>
+                <input type="text" class="inp" placeholder="your name">
+            </div>
+            <br>
+            <div class="div">
+                <label for="#">Email:</label>
+                <input type="email" class="inp" placeholder="your email">
+            </div>
+            <br>
+            <div class="div">
+                <label for="#">Password:</label>
+                <input type="password" class="inp">
+            </div>
+            <br>
+            <div class="div">
+                <label for="#">Phone Number:</label>
+                <input type="tel" class="inp">
+            </div>
+            <br>
+            <div class="div"> 
+                <label>Gender:</label>
+                Male: <input type="radio" name="gen"/>
+                Female: <input type="radio" name="gen"/> 
+                Other: <input type="radio" name="gen"/> 
+            </div>
+            <br>
+            <div class="div" id="sel">
+                language <select name="language">
+                <option value="#">Select Language</option>
+                <option value="eng">English</option>
+                <option value="tel">Telugu</option>
+                <option value="hin">Hindi</option>
+                <option value="kan">Kanada</option>
+            </select>
+            </div>
+            <br>
+            <div class="div">
+                <label for="#">Zip Code:</label>
+                <input type="number" class="inp">
+            </div>
+            <br>
+            <div class="div">
+                <label for="#">About:</label>
+                <textarea name="#" id="tex" placeholder="Write about yourself..."></textarea>
+            </div>
+            <br>
+            <div class="div">
+                <button>Register</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>
